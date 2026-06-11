@@ -25,7 +25,7 @@ Performed exploratory data analysis on S&P 500 stock price data with ~619,000 en
 
 - ## Task 3: Time-Series Analysis
 Implemented time series forecasting using ARIMA-based models on hourly time-series data. The pipeline includes time-series decomposition (trend, seasonality, residual analysis), and automated model selection using auto_arima. Forecasting is performed for a horizon of 168 time steps (7 days of hourly predictions). Model performance is evaluated using Mean Absolute Error (MAE).
-AEP hourly energy demand dataset has the following fields: Datetime, AES_MW.
+AEP hourly energy demand dataset has the following fields: Datetime, AEP_MW.
 
 **Steps to run this project:**
 1. Clone the repository
