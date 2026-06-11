@@ -8,8 +8,8 @@ Customer dataset has the following fields: Index, Customer Id, First Name, Last 
 
 **Steps to run this project:**
 1. Clone the repository
-3. Run `pip install -r requirements.txt`
-4. Run `python task_1/main.py`
+2. Run `pip install -r requirements.txt`
+3. Run `python task_1/main.py`
 
 
 - ## Task 2: Exploratory Data Analysis (EDA)
@@ -20,4 +20,16 @@ Performed exploratory data analysis on S&P 500 stock price data with ~619,000 en
 2. Open `task_2/main.ipynb` in Jupyter Notebook, Google Colab, or VSCode
 3. If using VSCode, then run `pip install -r requirements.txt`
 4. If using Jupyter Notebook or Google Colab, no need for installment.
-6. Run all cells top to bottom
+5. Run all cells top to bottom
+
+
+- ## Task 3: Time-Series Analysis
+Implemented time series forecasting using ARIMA-based models on hourly time-series data. The pipeline includes time-series decomposition (trend, seasonality, residual analysis), and automated model selection using auto_arima. Forecasting is performed for a horizon of 168 time steps (7 days of hourly predictions). Model performance is evaluated using Mean Absolute Error (MAE).
+AEP hourly energy demand dataset has the following fields: Datetime, AES_MW.
+
+**Steps to run this project:**
+1. Clone the repository
+2. Open `task_3/main.ipynb` in Jupyter Notebook, Google Colab, or VSCode
+3. If using VSCode, then run `pip install -r requirements.txt`
+4. If using Jupyter Notebook or Google Colab, no need for installment.
+5. Run all cells top to bottom
