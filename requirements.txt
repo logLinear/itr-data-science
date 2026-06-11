@@ -1,9 +1,8 @@
-# FOR TASK 1
 pandas
 numpy
 scikit-learn
-
-# FOR TASK 2
-matplot 
+matplotlib
 seaborn
 scipy
+statsmodels
+pmdarima
